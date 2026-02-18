@@ -9,6 +9,8 @@ I build **API-first, production-minded AI/data systems** across scraping, ETL, a
 
 ---
 
+![Portfolio Overview](portfolio_overview.gif)
+
 ## 🚀 Featured Projects
 
 ### 1) [legal-doc-ai-pipeline](https://github.com/keremercin/legal-doc-ai-pipeline)
