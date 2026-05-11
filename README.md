@@ -1,13 +1,13 @@
 # Hi, I'm Kerem Ercin
-### LLM/AI Engineer | Production ML & Automation | Python, FastAPI, RAG
+### Python Automation & AI Workflow Engineer | Data Pipelines, RAG, FastAPI
 
-I build API-first AI systems that move from prototype to measurable production behavior.
+I build practical Python systems for teams that need reliable automation, data extraction, AI workflows, and API-first internal tools.
 
-- 5+ years delivering client-facing ML/AI automation systems
-- Focus: RAG reliability, evaluation harnesses, workflow automation, applied ML
-- Open to remote LLM/AI Engineer roles (UTC+3)
+- 5+ years delivering client-facing data, ML, scraping, and automation work
+- Strongest areas: Python, SQL, FastAPI, web scraping, OCR/PDF extraction, RAG, semantic search, Playwright/Selenium, PostgreSQL
+- Available for remote contract, freelance, or full-time work from Turkey (UTC+3)
 
-**Open to Work (LLM/AI Engineer):** If you need someone who can ship end-to-end AI systems with measurable quality gates, reach me at `ercinkerem54@gmail.com`.
+**Open to work:** If your team needs help turning messy data, PDFs, websites, spreadsheets, or manual workflows into reliable software, reach me at `ercinkerem54@gmail.com`.
 
 ---
 
@@ -16,18 +16,18 @@ I build API-first AI systems that move from prototype to measurable production b
 ## Flagship Projects
 
 ### 1) [legal-doc-ai-pipeline](https://github.com/keremercin/legal-doc-ai-pipeline)
-Production-grade legal AI pipeline with OCR, pgvector retrieval, grounded QA, audit trail, and evaluation artifacts.
+Document AI pipeline with OCR, pgvector retrieval, grounded QA, audit trail, API endpoints, demo UI, tests, CI, and retrieval benchmark artifacts.
 
 ### 2) [rag-eval-observatory](https://github.com/keremercin/rag-eval-observatory)
-RAG evaluation API with precision/recall/MRR tracking, failure taxonomy, and regression-ready benchmark outputs.
+RAG evaluation API with precision/recall/MRR tracking, failure taxonomy, SQLite run history, regression-ready benchmark outputs, tests, and CI.
 
 ### 3) [ai-automation-toolkit](https://github.com/keremercin/ai-automation-toolkit)
-Webhook-first AI automation backend for support summarization, lead enrichment, and document intake contracts.
+Webhook-first automation backend for support summarization, lead enrichment, and document intake with clean payload contracts and failure-mode docs.
 
 ## Support Projects
 
 ### 4) [ecommerce-price-intel](https://github.com/keremercin/ecommerce-price-intel)
-E-commerce price monitoring API with threshold alert logic and dashboard-ready analytics outputs.
+E-commerce price monitoring API with snapshot endpoints, alert detection tests, and dashboard-ready analytics outputs.
 
 ### 5) [finance-loan-approval-prediction](https://github.com/keremercin/finance-loan-approval-prediction)
 ML pipeline with model comparison, metrics artifacts, model card, and FastAPI inference service.
@@ -39,10 +39,11 @@ Applied churn prediction pipeline with reproducible training artifacts and deplo
 
 ## What I Can Build In First 30 Days
 
-- Ship a production-style RAG service with evaluation baseline and reliability gates
-- Build event-driven AI automation endpoints with clean contracts and test coverage
-- Design retrieval + analytics pipelines with measurable outputs and deploy-ready APIs
-- Establish CI quality gates (lint, tests, coverage), release cadence, and docs standards
+- Ship a Python/FastAPI automation service around your existing workflow
+- Build a scraping or data extraction pipeline with clean CSV/JSON/API outputs
+- Add OCR/PDF extraction, RAG search, or semantic search over internal documents
+- Create evaluation baselines, tests, and CI checks so the project is not just a demo
+- Turn a manual spreadsheet/browser/reporting process into a repeatable backend job
 
 ---
 
@@ -54,5 +55,6 @@ See [`PORTFOLIO_INDEX.md`](PORTFOLIO_INDEX.md) for one-page project summary (pro
 
 ## Contact
 - Email: **ercinkerem54@gmail.com**
+- LinkedIn: **https://www.linkedin.com/in/keremercin/**
 - Location: **Remote (UTC+3)**
 - GitHub: **https://github.com/keremercin**
