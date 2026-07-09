@@ -1,38 +1,43 @@
 # Hi, I'm Kerem Ercin
-### Python Automation & AI Workflow Engineer | Data Pipelines, RAG, FastAPI
+### Python Automation Engineer | Document AI, RAG, APIs, Internal Tools
 
-I build practical Python systems for teams that need reliable automation, data extraction, AI workflows, and API-first internal tools.
+![Python automation, document AI, and data systems](profile-banner.svg)
 
-- 5+ years delivering client-facing data, ML, scraping, and automation work
-- Strongest areas: Python, SQL, FastAPI, web scraping, OCR/PDF extraction, RAG, semantic search, Playwright/Selenium, PostgreSQL
-- Available for remote contract, freelance, or full-time work from Turkey (UTC+3)
+I build practical Python systems that turn messy documents, web data, and manual workflows into reliable software.
 
-**Open to work:** If your team needs help turning messy data, PDFs, websites, spreadsheets, or manual workflows into reliable software, reach me at `ercinkerem54@gmail.com`.
+- Python, FastAPI, SQL, PostgreSQL, web scraping, OCR/PDF extraction, and RAG
+- API-first automation with structured outputs, tests, observability, and clear failure handling
+- Remote async collaboration from Turkey (UTC+3)
+
+**Best fit:** document workflows, support and lead intake, data extraction, API integrations, internal tools, and AI features that need grounded outputs rather than a fragile chatbot demo.
 
 ---
 
 ![Portfolio Overview](portfolio_overview.gif)
 
-## Flagship Projects
+## Selected Proof
 
 ### 1) [legal-doc-ai-pipeline](https://github.com/keremercin/legal-doc-ai-pipeline)
-Document AI pipeline with OCR, pgvector retrieval, grounded QA, audit trail, API endpoints, demo UI, tests, CI, and retrieval benchmark artifacts.
+OCR/PDF ingestion, hybrid retrieval, grounded Q&A, citations, audit trail, FastAPI endpoints, tests, CI, and benchmark artifacts.
 
-### 2) [rag-eval-observatory](https://github.com/keremercin/rag-eval-observatory)
+### 2) [ai-automation-toolkit](https://github.com/keremercin/ai-automation-toolkit)
+Webhook-first backend for support summaries, lead enrichment, and document intake with explicit payload contracts and failure-mode documentation.
+
+### 3) [rag-eval-observatory](https://github.com/keremercin/rag-eval-observatory)
 RAG evaluation API with precision/recall/MRR tracking, failure taxonomy, SQLite run history, regression-ready benchmark outputs, tests, and CI.
 
-### 3) [ai-automation-toolkit](https://github.com/keremercin/ai-automation-toolkit)
-Webhook-first automation backend for support summarization, lead enrichment, and document intake with clean payload contracts and failure-mode docs.
+### 4) [lead-support-doc-intake](https://github.com/keremercin/lead-support-doc-intake)
+Local-first operations dashboard that classifies inbound events, enriches payloads, and routes leads, support tickets, and documents.
 
-## Support Projects
+## Additional Projects
 
-### 4) [ecommerce-price-intel](https://github.com/keremercin/ecommerce-price-intel)
+### 5) [ecommerce-price-intel](https://github.com/keremercin/ecommerce-price-intel)
 E-commerce price monitoring API with snapshot endpoints, alert detection tests, and dashboard-ready analytics outputs.
 
-### 5) [finance-loan-approval-prediction](https://github.com/keremercin/finance-loan-approval-prediction)
+### 6) [finance-loan-approval-prediction](https://github.com/keremercin/finance-loan-approval-prediction)
 ML pipeline with model comparison, metrics artifacts, model card, and FastAPI inference service.
 
-### 6) [gym-customer-churn-prediction](https://github.com/keremercin/gym-customer-churn-prediction)
+### 7) [gym-customer-churn-prediction](https://github.com/keremercin/gym-customer-churn-prediction)
 Applied churn prediction pipeline with reproducible training artifacts and deployable API endpoint.
 
 ---
