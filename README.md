@@ -13,12 +13,14 @@ I build practical Python systems that turn messy documents, web data, and manual
 
 ---
 
-![Portfolio Overview](portfolio_overview.gif)
+![Engineering portfolio map](portfolio-map.svg)
 
 ## Selected Proof
 
 ### 1) [legal-doc-ai-pipeline](https://github.com/keremercin/legal-doc-ai-pipeline)
 OCR/PDF ingestion, hybrid retrieval, grounded Q&A, citations, audit trail, FastAPI endpoints, tests, CI, and benchmark artifacts.
+
+![Reliable document AI delivery loop](delivery-loop.svg)
 
 ### 2) [ai-automation-toolkit](https://github.com/keremercin/ai-automation-toolkit)
 Webhook-first backend for support summaries, lead enrichment, and document intake with explicit payload contracts and failure-mode documentation.
