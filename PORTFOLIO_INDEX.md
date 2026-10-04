@@ -1,16 +1,26 @@
-# Portfolio Index
+# Portfolio index
 
-This portfolio is organized around practical business problems: document AI, RAG evaluation, automation workflows, scraping/data extraction, and deployable ML APIs.
+The three primary projects cover web data extraction, document processing and PDF workflows. Public portfolio code is evidence of implementation; it is not evidence of client adoption or business outcomes.
 
-| Repository | Problem | Tech Stack | Measurable Result | Demo Link |
-|---|---|---|---|---|
-| [legal-doc-ai-pipeline](https://github.com/keremercin/legal-doc-ai-pipeline) | Teams need searchable, cited answers over legal or operational documents | Python, FastAPI, pgvector, OCR, Streamlit | Retrieval benchmark, audit trail, QA endpoint, demo UI, CI | `docs/DEMO_SCRIPT_90S.md` |
-| [rag-eval-observatory](https://github.com/keremercin/rag-eval-observatory) | RAG apps need repeatable quality evidence before production | Python, FastAPI, SQLite, eval metrics, failure taxonomy | precision@k/recall@k/MRR, run history, failure buckets, CI | `docs/DEMO_SCRIPT_90S.md` |
-| [ai-automation-toolkit](https://github.com/keremercin/ai-automation-toolkit) | Internal automations fail when payloads, errors, and contracts are inconsistent | Python, FastAPI, webhook workflows | Standardized response contracts, tests, failure-mode docs | `docs/DEMO_SCRIPT_90S.md` |
-| [ecommerce-price-intel](https://github.com/keremercin/ecommerce-price-intel) | E-commerce price and review monitoring is manual and noisy | Python, FastAPI, pandas, Streamlit | Snapshot API, alert logic, spike/drop/noise tests | `docs/DEMO_SCRIPT_90S.md` |
-| [finance-loan-approval-prediction](https://github.com/keremercin/finance-loan-approval-prediction) | Credit/loan support decisions need reproducible ML outputs | Python, scikit-learn, FastAPI | Metrics artifacts, model card, API inference service | `docs/DEMO_SCRIPT_90S.md` |
-| [gym-customer-churn-prediction](https://github.com/keremercin/gym-customer-churn-prediction) | Retention teams need churn probability insights from structured data | Python, scikit-learn, FastAPI | Reproducible training artifacts and deployable API endpoint | `docs/DEMO_SCRIPT_90S.md` |
+| Project | Inputs and outputs | Evidence to inspect | Important limits |
+| --- | --- | --- | --- |
+| [Catalog Observatory](https://github.com/keremercin/ecommerce-price-intel) | Allowed catalog HTML/JSON-LD → SQLite snapshots, CSV/JSON, API and dashboard | Collector, resume/cache/retry tests, recorded 60-product run and actual dashboard image | Public sandbox with synthetic prices; no cross-store identity resolution |
+| [Legal Document Workbench](https://github.com/keremercin/legal-doc-ai-pipeline) | TXT/text PDF/images → chunks, search, extracted fields and source-labelled snippets | Ingestion/QA validation tests, actual application image, grounding diagnostic with failures | Offline lexical search misses paraphrases; source overlap does not prove answerability; provider mode needs separate evaluation |
+| [PDF Layout Translator](https://github.com/keremercin/pdf-layout-translator) | PDF → translated PDF, job status and credit ledger | Real PDF pipeline fixture demo, identity/ownership tests, concurrent claim and transaction rollback tests | Fixture translation is not AI quality evidence; recovery requires stopped workers; no automatic distributed recovery |
 
-## Legacy / archived examples
+## Supporting references
 
-Archived scraper repos are intentionally kept as older examples of data extraction work. The active portfolio focus is the six repositories above.
+| Repository | Honest scope |
+| --- | --- |
+| ai-automation-toolkit | Small automation endpoints; rule-based logic and optional provider path |
+| lead-support-doc-intake | Local workflow demonstration; destination labels are not external delivery |
+| rag-eval-observatory | Evaluation calculations and stored run fixtures; not a live RAG quality benchmark |
+| finance-loan-approval-prediction | Tabular ML baseline and inference packaging; current model-selection scores are not a separate final test |
+| gym-customer-churn-prediction | Synthetic-data ML exercise; no measured retention impact |
+| doctor-data-scraper / stock-data-scraper / linkedin-scraper | Archived earlier extraction examples with narrower functionality |
+
+Forks remain attributed to their upstream projects. No customer names, usage counts or results are inferred from repository presence.
+
+## Demonstration and verification
+
+Start from each project's README. Inspect source-linked outputs and run the provided commands. Recorded local results apply to the documented configuration; historical CI badges do not prove that unpublished changes passed remote CI.
